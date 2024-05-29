@@ -1,0 +1,23 @@
+body{
+    font-family: "Tangerine", sans-serif;
+    font-weight: 400; /* Vanligtvis 100 - 900 där 900 är kraftigast */
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+} 
+
+header{
+    height:95vh;
+    background-image: linear-gradient(to right, #181bcd95, #e422708d),url(/css/bilder/isgud.jpg);
+    background-size: cover;
+   /*  clip-path: polygon(0 0,100% 0,100% 75%,0 100%);
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);  */
+    clip-path: polygon(0 30%, 70% 30%, 70% 0, 100% 50%, 70% 100%, 70% 70%, 0 70%); 
+}
